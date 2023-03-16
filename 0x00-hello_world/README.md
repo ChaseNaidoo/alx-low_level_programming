@@ -21,4 +21,8 @@ the function printf
 # 6-size.c
 C program that prints the size of various types on the computer it is compiled and run on.
 
-#
+# 100-intel
+Generates the assembly code (Intel syntax) of a C code and save it in an output file.
+
+# 101-quote.c
+Prints exactly and that piece of art is useful" - Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
