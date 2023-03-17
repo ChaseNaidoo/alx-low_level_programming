@@ -13,11 +13,11 @@ int main(void)
 	{
 	for (second = first + 1; second < 10; second++)
 	{
-        putchar((first % 10) + '0');
+	putchar((first % 10) + '0');
 	putchar((second % 10) + '0');
 	if (first == 8 && second == 9)
-	  continue;
-	  	putchar(',');
+	continue;
+		putchar(',');
 		putchar(' ');
 	}
 	}
