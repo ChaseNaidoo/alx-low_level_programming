@@ -8,7 +8,7 @@
 int main(void)
 {
 	int c;
-	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVXYZ";
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 	for (c = 0; c < 52; c++)
 	putchar(alp[c]);
