@@ -5,10 +5,17 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void);
+
+int main(int argc, char *args[])
+{
+	print_alphabet();
+	return (0);
+}
+void print_alphabet
 {
 	int _putchar(char c);
-	char *str = "_putchar\n";
+	char *str = "abcdefghijklmnopqrstuvwxyz\n";
 
 	for (int i = 0; str[i] != '\0'; i++)
 {
