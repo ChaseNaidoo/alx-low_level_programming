@@ -5,14 +5,14 @@
  *
  * @c: the character to check
  *
- * checks whether the value of c is A and Z, inclusive.
+ * checks whether the value of c is a and z, inclusive or whether the value is A and Z, inclusive
  *
  * Return: 1 (uppercase), Return: 0 (otherwise)
  *
  */
 int _isalpha(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+  if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 {
 	return (1);
 }
