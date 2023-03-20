@@ -1,18 +1,17 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
  * Return: Always 0 (Success)
  */
 void print_alphabet(void)
 {
-	int _putchar(char c);
-	char *str = "abcdefghijklmnopqrstuvwxyz\n";
+	int i;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (int i = 0; str[i] != '\0'; i++)
-{
-	_putchar(str[i]);
-}
-	return (0)
+	for (i = 0; i < 26; i++)
+	_putchar(alp[i]);
+	_putchar('\n');
+	return (0);
 }
