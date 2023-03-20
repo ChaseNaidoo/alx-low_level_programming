@@ -3,7 +3,7 @@
 /**
  * print_alphabet - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Void (Success)
  */
 void print_alphabet(void)
 {
@@ -13,5 +13,4 @@ void print_alphabet(void)
 	for (i = 0; i < 26; i++)
 	_putchar(alp[i]);
 	_putchar('\n');
-	return (0);
 }
