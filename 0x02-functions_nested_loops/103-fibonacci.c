@@ -8,7 +8,7 @@
 int main(void)
 {
 	long int first = 1, second = 1, third = 2, sum = 0;
-	
+
 	while (third <= 4000000)
 {
 	if (third % 2 == 0)
