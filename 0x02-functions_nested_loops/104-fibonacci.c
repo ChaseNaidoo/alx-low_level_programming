@@ -12,7 +12,7 @@ int main(void)
 
 	printf("%lu, %lu", first, second);
 
-	while (count < 98)
+	while (count <= 98)
 {
 	printf("%lu, ", third);
 	first = second;
