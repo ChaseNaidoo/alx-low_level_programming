@@ -19,7 +19,7 @@ int main(void)
 	{
 	if (count == 50)
 {
-	printf("%lu \n", n);
+	printf("%lu\n", n);
 }
 	else
 {
@@ -27,7 +27,7 @@ int main(void)
 }
 	first = second;
 	second = n;
-	n = first + second;
+	n = (first + second);
 	count++;
 	}
 	return (0);
