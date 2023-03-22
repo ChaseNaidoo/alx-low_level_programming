@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int counter = 3;
+	int counter = 2;
 
 	float a = 1, b = a + 1, c = (a + b);
 
