@@ -15,7 +15,7 @@ int main(void)
 
 	while (counter < 98)
 {
-	printf("%.0f", c);
+	printf("%lu", c);
 	a = b;
 	b = c;
 	c = (a + b) % 4294967296UL;
