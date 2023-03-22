@@ -12,7 +12,7 @@ int main(void)
 	float a = 1, b = a + 1, c = (a + b);
 
 	printf("%.0f, %.0f, ", a, b);
-	
+
 	while (counter < 98)
 {
 	printf("%.0f", c);
