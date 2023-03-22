@@ -9,7 +9,7 @@ int main(void)
 {
 	int a = 1, b = 2;
 
-	printf("%lu, %lu, ", first, second);
+	printf("%lu, %lu, ", a, b);
 
 	for (int i = 2; i < 98; i++)
 {
