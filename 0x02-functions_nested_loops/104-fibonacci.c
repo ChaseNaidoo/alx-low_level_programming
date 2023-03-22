@@ -9,7 +9,7 @@ int main(void)
 {
 	int counter = 2;
 
-	float a = 1, b = 2, c = (a + b);
+	float a = 1, b = a + 1, c = (a + b);
 
 	printf("%.0f, ", a);
 	printf("%.0f, ", b);
