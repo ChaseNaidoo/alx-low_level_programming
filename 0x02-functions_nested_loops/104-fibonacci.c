@@ -7,19 +7,21 @@
  */
 int main(void)
 {
-	int count = 2;
-	long int first = 1, second = 2, third;
+	int a = 1, b = 2;
 
-	printf("%lu, %lu", first, second);
+	printf("%lu, %lu, ", first, second);
 
-	while (count <= 98)
+	for (int i = 2; i < 98; i++)
 {
-	printf("%lu, ", third);
-	first = second;
-	second = third;
-	third = (first + second);
-	third++;
+	int c = (a + b);
+	printf("%d", c);
+	if (i < 97)
+{
+	printf(", ");
 }
-	printf("%lu\n", first + second);
+	a = b;
+	b = c;
+}
+	printf("\n");
 	return (0);
 }
