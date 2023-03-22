@@ -9,16 +9,16 @@ int main(void)
 {
 	int counter = 2;
 
-	float a = 1, b = a + 1, c = (a + b);
+	unsigned long int a = 1, b = a + 1, c = (a + b) % 4294967296UL;
 
-	printf("%.0f, %.0f, ", a, b);
+	printf("%lu, %lu, ", a, b);
 
 	while (counter < 98)
 {
 	printf("%.0f", c);
 	a = b;
 	b = c;
-	c = (a + b);
+	c = (a + b) % 4294967296UL;
 	counter++;
 	if (counter < 98)
 {
