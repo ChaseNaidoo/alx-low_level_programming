@@ -7,20 +7,23 @@
  */
 int main(void)
 {
-	int a = 1, b = 2;
+	int counter = 2;
 
-	printf("%d, %d, ", a, b);
+	float a = 1, b = 2, c = (a + b);
 
-	for (int i = 2; i < 98; i++)
+	printf("%.0f, ", a);
+	printf("%.0f, ", b);
+	while (counter < 98)
 {
-	int c = (a + b);
-	printf("%d", c);
-	if (i < 97)
+	printf("%.0f", c);
+	a = b;
+	b = c;
+	c = (a + b);
+	counter++;
+	if (counter < 98)
 {
 	printf(", ");
 }
-	a = b;
-	b = c;
 }
 	printf("\n");
 	return (0);
