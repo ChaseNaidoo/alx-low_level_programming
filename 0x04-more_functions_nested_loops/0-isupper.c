@@ -10,7 +10,7 @@
  * Return: 1 (uppercase), Return: 0 (otherwise)
  *
  */
-int _islower(int c)
+int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 {
