@@ -17,9 +17,9 @@ int main(void)
 	n /= primefactor;
 }
 	else
-	  {
-	    primefactor++;
-	  }
+{
+	primefactor++;
+}
 }
 	printf("%lu\n", n);
 	return (0);
