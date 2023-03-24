@@ -7,17 +7,20 @@
  */
 int main(void)
 {
-	long int n = 612852475143;
-	long int primefactor = 2;
+	unsigned long n = 612852475143;
+	unsigned int primefactor = 2;
 
-	for (primefactor = 2; primefactor <= n; primefactor++)
+	while (primefactor != n)
 {
 	if (n % primefactor == 0)
 {
 	n /= primefactor;
-	primefactor--;
 }
+	else
+	  {
+	    primefactor++;
+	  }
 }
-	printf("%ld\n", n);
+	printf("%lu\n", n);
 	return (0);
 }
