@@ -19,11 +19,11 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	int i, j;
 	char temp;
 
-	while (n1[len1])
+	while (n1[len1] != '\0')
 {
 	len1++;
 }
-	while (n2[len2])
+	while (n2[len2] != '\0')
 {
 	len2++;
 }
