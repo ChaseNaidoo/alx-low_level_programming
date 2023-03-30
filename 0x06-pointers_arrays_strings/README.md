@@ -27,4 +27,17 @@ Function that encodes a string into 1337.
 - Letters t and T should be replaced by 7
 - Letters l and L should be replaced by 1
 
-# 
+# 100-rot13.c
+Function that encodes a string using rot13.
+
+# 101-print_number.c
+Function that prints an integer.
+
+# 102-magic.c
+Program prints a[2] = 98, followed by a new line
+
+# 103-infinite_add.c
+Function that adds two numbers.
+
+# 104-print_buffer.c
+Function that prints a buffer.
