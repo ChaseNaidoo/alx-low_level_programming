@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_chessboard - prints chessboard uing 2D array
+ * print_chessboard - prints chessboard using a 2D array
  *
  * @a: first array represent rows
  *
