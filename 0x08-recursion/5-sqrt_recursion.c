@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * binarysearch - binary search recursive method to find square root
+ * binarysearch - binary search using recursive method to find square root
  *
  * @x: input integer
  * @low: lower bound
@@ -32,6 +32,7 @@ int binarysearch(int x, int low, int high)
 	return (binarysearch(x, mid + 1, high));
 }
 }
+
 /**
  * _sqrt_recursion - return the natural square root of a number.
  *
