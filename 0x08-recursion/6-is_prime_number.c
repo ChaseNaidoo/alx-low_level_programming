@@ -3,7 +3,7 @@
 /**
  * getprime - returns 1 if input integer is a prime, otherwise return 0.
  *
- * @n: input integer to check
+ * @x: input integer to check
  * @i: divisor to check
  *
  * Return: prime number (1), not prime number (0)
