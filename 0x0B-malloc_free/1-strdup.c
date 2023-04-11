@@ -1,13 +1,13 @@
 #include <stdlib.h>
 
 /**
- * _strdup - duplicates a string
- *
- * @str: string to be duplicated
- *
- * Return: a pointer to the duplicated string, str or  no memory (NULL)
- *
- */
+* _strdup - duplicates a string
+*
+* @str: string to be duplicated
+*
+* Return: a pointer to the duplicated string, str or  no memory (NULL)
+*
+*/
 char *_strdup(char *str)
 {
 	char *s;
