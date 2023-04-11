@@ -32,5 +32,6 @@ char *_strdup(char *str)
 	while (*str)
 	*p++ = *str++;
 	*p = '\0';
+
 	return (s);
 }
