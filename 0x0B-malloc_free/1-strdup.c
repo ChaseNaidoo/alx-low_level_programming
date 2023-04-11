@@ -22,11 +22,15 @@ char *_strdup(char *str)
 	while (str[len])
 	len++;
 	s = malloc(len + 1);
+	if (s == NULL)
+	{
+	return (NULL);
+	}
+
 	p = s;
 
 	while (*str)
 	*p++ = *str++;
 	*p = '\0';
-	free(str);
 	return (s);
 }
