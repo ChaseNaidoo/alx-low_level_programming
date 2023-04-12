@@ -29,7 +29,7 @@ char *argstostr(int ac, char **av)
 
 	while (*(av[i] + len) != '\0')
 	len++;
-	lent += len;
+	lent += len + 1;
 	}
 	s = malloc(sizeof(char) * lent);
 
