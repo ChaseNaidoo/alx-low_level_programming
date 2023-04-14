@@ -10,4 +10,5 @@ Function that allocates memory for an array, using malloc.
 # 3-array_range.c
 Function that creates an array of integers.
 
-# 
+# 100-realloc.c
+Function that reallocates a memory block using malloc and free.
