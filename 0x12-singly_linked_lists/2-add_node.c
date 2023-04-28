@@ -42,7 +42,7 @@ list_t *add_node(list_t **head, const char *str)
  *
  * @s: input character
  *
- * Return: (lenght of string)
+ * Return: (length of string)
  *
  */
 int _strlen(const char *s)
