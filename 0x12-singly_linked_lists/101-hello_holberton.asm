@@ -1,5 +1,5 @@
 	section .data
-	message db 'Hello, Holberton', 10
+message db 'Hello, Holberton', 10
 
 	section .text
 	global main
@@ -14,4 +14,4 @@ main:
 	ret
 
 	section .data
-	format db '%s', 0
+format db '%s', 0
