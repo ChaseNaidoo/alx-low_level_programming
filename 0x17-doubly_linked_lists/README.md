@@ -25,3 +25,11 @@
 # 8-delete_dnodeint.c
 ## Function that deletes the node at index index of a dlistint_t linked list.
 
+# 100-password
+## Password for crackme4.
+
+# 102-result
+## Result of the largest palindrome made from the product of two 3-digit numbers.
+
+# 103-keygen.c
+## Keygen for crackme5.
