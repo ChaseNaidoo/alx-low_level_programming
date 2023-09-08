@@ -19,3 +19,5 @@
 # 6-hash_table_delete.c
 ## Function that deletes a hash table.
 
+# 100-sorted_hash_table.c
+## A sorted linked list, by key (sorted on ASCII value), that we can print by traversing it.
